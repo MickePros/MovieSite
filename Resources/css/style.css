@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    text-align: center;
+    color: silver;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#info {
+    border: 5px outset silver;
+    border-radius: 10%;
+    max-width: 40%;
+    margin: 10px auto;
+    padding: 10px 20px;
+}
+
+#info span {
+    display: block;
+    text-align: left;
+    margin-left: 13%;
+}
+
+#links {
+}
+
+#links ul li {
+    display: inline-block;
+}
+
+#links ul li:before {
+    content: "-> ";
+}
+
+footer {
+    padding-top: 10px;
+    height: 50px;
+    border-top: 5px solid maroon;
+    background-color: red;
+}
+
+footer div span {
+    display: block;
+}
+
+a {
+    color: gold;
+}
+
+a:visited {
+    color: goldenrod;
+}
